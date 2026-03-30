@@ -156,6 +156,23 @@ a{color:inherit;text-decoration:none}
 }
 .service-item{text-align:center}
 
+/* ===== 유튜브 소개 영상 embed ===== */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  aspect-ratio: 16 / 9;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /* 아이콘 원 + 라벨(원 안에 수직 배치) */
 .icon-circle{
   width:140px;
